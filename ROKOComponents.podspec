@@ -11,14 +11,8 @@ Pod::Spec.new do |s|
   s.name             = "ROKOComponents"
   s.version          = "0.1.0"
   s.summary          = "Very well ROKOComponents."
-  s.description      = <<-DESC
-                       123
-                      456
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.description      = "Verbose desc ROKOComponents.................."
   s.homepage         = "https://github.com/maslovsa/ROKOComponents"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Maslov Sergey" => "sergey.maslov@rokolabs.com" }
   s.source           = { :git => "https://github.com/maslovsa/ROKOComponents.git", :tag => s.version.to_s }
@@ -29,10 +23,14 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'ROKOComponents' => ['Pod/Assets/*.png']
+    'ROKOComponents' => ['Pod/Assets/*']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'ROKOComponents.framework'
+  # s.preserve_paths      = 'Frameworks/ROKOComponents.framework'
+
+  s.public_header_files = 'Frameworks/ROKOComponents.framework/Headers/*.h'
+
+  # s.frameworks = 'Foundation', 'UIKit', 'MapKit'
+  
 end
