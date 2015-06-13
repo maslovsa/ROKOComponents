@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ROKOComponents_Example', :exclusive => true do
+  pod "ROKOComponents", :path => "../"
+end
+
+target 'ROKOComponents_Tests', :exclusive => true do
+  pod "ROKOComponents", :path => "../"
+
+  
+end

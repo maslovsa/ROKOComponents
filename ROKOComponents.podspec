@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ROKOComponents"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Very well ROKOComponents."
   s.description      = "Verbose desc ROKOComponents.................."
   s.homepage         = "https://github.com/maslovsa/ROKOComponents"
@@ -22,13 +22,17 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'Classes/*.m'
   s.resource_bundles = {
-    'ROKOComponents' => ['Assets/*']
+    'ROKOShare' => ['Assets/ROKOShare.bundle'],
+    'ROKOStickers' => ['Assets/ROKOStickers.bundle']
   }
 
-  s.vendored_frameworks = 'Frameworks/ROKOComponents.framework'
-  # s.preserve_paths      = 'Frameworks/ROKOComponents.framework'
+  s.vendored_frameworks = 'Frameworks/ROKOComponents.framework', 
+                          'Frameworks/ROKOStickers.framework', 
+                          'Frameworks/ROKOShare.framework'
 
-  s.public_header_files = 'Frameworks/ROKOComponents.framework/Versions/A/Headers/*.h'
+  s.public_header_files = 'Frameworks/ROKOComponents.framework/Versions/A/Headers/*.h',
+                          'Frameworks/ROKOStickers.framework/Versions/A/Headers/*.h',
+                          'Frameworks/ROKOShare.framework/Versions/A/Headers/*.h'
  
   # s.frameworks = 'Foundation', 'UIKit',
   
