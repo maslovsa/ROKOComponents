@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ROKOBorocco"
-  s.version          = "0.1.5"
+  s.version          = "0.1.6"
   s.license          = 'MIT'
   s.homepage         = "https://github.com/maslovsa/ROKOComponents"
   s.author           = { "Maslov Sergey" => "sergey.maslov@rokolabs.com" }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/maslovsa'
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
-  s.default_subspec = 'Stickers '
+  s.default_subspec = 'Stickers'
   
  # s.vendored_frameworks   = 'ROKOComponents.framework'
  # s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ROKOComponents"' }
