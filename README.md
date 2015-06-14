@@ -1,8 +1,3 @@
-# ROKOComponents
-
-[![CI Status](http://img.shields.io/travis/Maslov Sergey/ROKOComponents.svg?style=flat)](https://travis-ci.org/Maslov Sergey/ROKOComponents)
-[![Version](https://img.shields.io/cocoapods/v/ROKOComponents.svg?style=flat)](http://cocoapods.org/pods/ROKOComponents)
-[![License](https://img.shields.io/cocoapods/l/ROKOComponents.svg?style=flat)](http://cocoapods.org/pods/ROKOComponents)
 [![Platform](https://img.shields.io/cocoapods/p/ROKOComponents.svg?style=flat)](http://cocoapods.org/pods/ROKOComponents)
 
 ## Usage
@@ -22,7 +17,10 @@ pod "ROKOBorocco"
 
 ## Author
 
+Alexey Golovenkov, alexey.golovenkov@rokolabs.com
+Denis Kempest, denis.kempest@rokolabs.com
 Maslov Sergey, sergey.maslov@rokolabs.com
+
 
 ## License
 
